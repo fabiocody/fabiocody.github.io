@@ -73,6 +73,7 @@ p.lead {
 
 .social-icons a:hover {
   background-color: #26AE60;
+  transition: background-color 0.3s;
 }
 
 .project-icons a {
@@ -95,14 +96,20 @@ p.lead {
 
 .project-icons a:hover {
   background-color: #26AE60;
+  transition: background-color 0.3s;
 }
 
 .dev-icons {
   font-size: 3rem;
 }
 
+.dev-icons .list-inline-item i {
+  transition: color 0.3s;
+}
+
 .dev-icons .list-inline-item i:hover {
   color: #26AE60;
+  transition: color 0.3s;
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
@@ -191,8 +198,10 @@ section.resume-section .resume-item .resume-date {
 
 a {
   color: #26AE60;
+  transition: 0.3s;
 }
 
 a:hover, a:focus, a:active {
   color: #068E40;
+  transition: color 0.3s;
 }
