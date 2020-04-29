@@ -168,9 +168,9 @@ section.resume-section {
   max-width: 75rem;
 }
 
-section.resume-section .resume-item .resume-date {
+/*section.resume-section .resume-item .resume-date {
   min-width: none;
-}
+}*/
 
 @media (min-width: 768px) {
   section.resume-section {
@@ -178,6 +178,7 @@ section.resume-section .resume-item .resume-date {
   }
   section.resume-section .resume-item .resume-date {
     min-width: 18rem;
+    font-weight: 500;
   }
 }
 
@@ -204,4 +205,13 @@ a {
 a:hover, a:focus, a:active {
   color: #068E40;
   transition: color 0.3s;
+}
+
+.technology {
+  text-transform: uppercase;
+  background-color: #068E40;
+  color: white;
+  padding: 3px;
+  /*margin-top: 10px;
+  margin-bottom: 10px;*/
 }
