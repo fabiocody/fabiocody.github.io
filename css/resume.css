@@ -222,3 +222,7 @@ hr.divider {
   margin-left: 1px;
   margin-top: -15px;
 }
+
+.img-profile {
+  border: 0.5rem solid rgba(255, 255, 255, 0.2);
+}
