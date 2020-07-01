@@ -25,4 +25,12 @@
     target: '#sideNav'
   });
 
+  $.cookieBar({
+    style: 'bottom-right',
+    closeButton: $('<a class="cookiebar-close">Continue</a>'),
+    hideOnClose: false
+  });
+
+  $('.cookie-bar__btn').addClass('btn btn-success')
+
 })(jQuery); // End of use strict

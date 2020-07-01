@@ -236,3 +236,16 @@ hr.divider {
 .img-profile {
   border: 0.5rem solid rgba(255, 255, 255, 0.2);
 }
+
+.cookie-bar__btn {
+  background-color: #26AE60 !important;
+}
+
+.cookie-bar__btn:hover {
+  background-color: #068E40 !important;
+  transition: color 0.3s;
+}
+
+.cookie-bar__btn:active {
+  background-color: #068E40 !important;
+}
